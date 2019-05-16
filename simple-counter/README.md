@@ -20,7 +20,7 @@ docker run --rm \
 # 从samples仓库中签出simple-counter
 git init simple-counter
 cd simple-counter
-git remote add origin git@github.com:hadix-lin/samples.git
+git remote add origin https://github.com/hadix-lin/samples.git
 git config core.sparsecheckout true
 echo "simple-counter/" >> .git/info/sparse-checkout
 git pull origin master
